@@ -41,3 +41,6 @@ The objective of this project is to develop an **ESP32-based Smart Light Monitor
 ✅ **Live Demo Video** 👇👇
 
 https://youtu.be/Wl8HO9bAUD0?si=2uz2Tcgh7JMX3WZd
+
+**Complete Firmware Working (Step-by-Step)**
+
