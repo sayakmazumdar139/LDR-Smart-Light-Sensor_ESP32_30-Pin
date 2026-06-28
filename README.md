@@ -10,19 +10,19 @@ The objective of this project is to develop an **ESP32-based Smart Light Monitor
 
 🔸**Power ON** 
 
-  The ESP32 initializes the LDR sensor, I2C LCD, LED, and buzzer.
+    The ESP32 initializes the LDR sensor, I2C LCD, LED, and buzzer.
   
 🔸**Light Detection** 
 
-  The LDR (Light Dependent Resistor) senses the surrounding light intensity. Its resistance changes with light, producing an analog         voltage that is read by the ESP32 through its ADC (GPIO34).
+    The LDR (Light Dependent Resistor) senses the surrounding light intensity. Its resistance changes with light, producing an analog         voltage that is read by the ESP32 through its ADC (GPIO34).
   
 🔸**Analog Data Processing** 
 
-  The ESP32 continuously reads the LDR value and compares it with a predefined threshold.
+    The ESP32 continuously reads the LDR value and compares it with a predefined threshold.
   
 🔸**Decision Making**
 
-  If the light intensity is below the threshold (Dark):
+    If the light intensity is below the threshold (Dark):
                      LED turns ON
                      Buzzer turns ON
   LCD displays 👇
@@ -34,9 +34,9 @@ The objective of this project is to develop an **ESP32-based Smart Light Monitor
     "ROOM BRIGHT" and "LED OFF"
 🔸**Continuous Monitoring** 
 
-The ESP32 repeats this process continuously, providing real-time automatic light monitoring and indication.
+    The ESP32 repeats this process continuously, providing real-time automatic light monitoring and indication.
 
-The ESP32 continuously reads the LDR's analog light intensity, compares it with a preset threshold, and automatically controls the LED, buzzer, and LCD to indicate whether the surrounding environment is bright or dark.
+ The ESP32 continuously reads the LDR's analog light intensity, compares it with a preset threshold, and automatically controls the LED,   buzzer, and LCD to indicate whether the surrounding environment is bright or dark.
 
 ✅ **Live Demo Video** 👇👇
 
