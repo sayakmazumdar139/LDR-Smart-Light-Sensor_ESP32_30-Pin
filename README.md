@@ -13,8 +13,10 @@ The objective of this project is to develop an **ESP32-based Smart Light Monitor
   
 🔸**Light Detection** 
   The LDR (Light Dependent Resistor) senses the surrounding light intensity. Its resistance changes with light, producing an analog         voltage that is read by the ESP32 through its ADC (GPIO34).
+  
 🔸**Analog Data Processing** 
   The ESP32 continuously reads the LDR value and compares it with a predefined threshold.
+  
 🔸**Decision Making**
   If the light intensity is below the threshold (Dark):
                      LED turns ON
